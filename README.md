@@ -21,11 +21,17 @@ Most attempts fail or pay little; a few pay huge. In such settings, volume of tr
 ```bash
 git clone git@git.wur.nl:jada001/luck_skill.git
 cd luck_skill
+
+# Create virtual environment
 python -m venv venv
-# Windows
+
+# Activate (Windows)
 venv\Scripts\activate
-# macOS/Linux
+
+# Activate (macOS/Linux)
 source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -34,6 +40,12 @@ pip install -r requirements.txt
 ```bash
 python abm_luck_vs_skill.py
 ```
+## Run in Google Colab
+
+You can run this project directly in Google Colab without installing anything locally:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/takirdi/skill_luck/blob/main/run_simulation.ipynb)
+
 
 Generates a plot and saves `example_result.png`.
 
@@ -49,7 +61,7 @@ Generates a plot and saves `example_result.png`.
 
 ## Authors and acknowledgment
 
-Author: *Your Name*  
+Author: *Kaleb, J*  
 Inspired by Pluchino et al. (2018) and level-k reasoning.
 
 ## License
